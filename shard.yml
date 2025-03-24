@@ -1,0 +1,13 @@
+name: crypto_price
+version: 0.1.0
+
+authors:
+  - Mina Kamel <minallkamel@gmail.com>
+
+targets:
+  crypto_price:
+    main: src/crypto_price.cr
+
+crystal: '>= 1.15.1'
+
+license: MIT
