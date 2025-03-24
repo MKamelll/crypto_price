@@ -1,14 +1,28 @@
 # crypto_price
 
-TODO: Write a description here
+I made it to be used with the `Generic Monitor` panel plugin on Xfce4
+you can use it for any plugin on your favourite Desktop Environment.
+
+you can install the `Generic Monitor` plugin on `Ubuntu` with
+
+`sudo apt install xfce4-genmon-plugin`
 
 ## Installation
 
-TODO: Write installation instructions here
+You have to hava a `Crystal` compiler install for the latest version check [Crystal Website](https://crystal-lang.org/install/)
+
+`
+git clone https://github.com/MKamelll/crypto_price.git
+cd crypto_price
+mkdir -p bin
+crystal build src/crypto_price.cr -o bin/crypto
+`
+
+You'll find the binary in the bin directory copy it somewhere in your path.
 
 ## Usage
 
-TODO: Write usage instructions here
+crypto <symbol> -- get the symbol abbreviation from binance when trading against usdt
 
 ## Development
 
