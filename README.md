@@ -11,9 +11,12 @@ you can install the `Generic Monitor` plugin on `Ubuntu` with
 
 You have to hava a `Crystal` compiler install for the latest version check [Crystal Website](https://crystal-lang.org/install/)
 
-`git clone https://github.com/MKamelll/crypto_price.git`
-`cd crypto_price`
-`make`
+```
+git clone https://github.com/MKamelll/crypto_price.git
+cd crypto_price
+make
+
+```
 
 You'll find the binary in the bin directory copy it somewhere in your path.
 
